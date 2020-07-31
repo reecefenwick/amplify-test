@@ -11,5 +11,13 @@
 			"providerPlugin": "awscloudformation",
 			"build": true
 		}
+	},
+	"function": {
+		"AmplifyTestFunc1": {
+			"build": true,
+			"providerPlugin": "awscloudformation",
+			"service": "Lambda",
+			"dependsOn": []
+		}
 	}
 }
